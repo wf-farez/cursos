@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio_sesion</title>
+    <link href="../CSS/estilo_header.css" rel="stylesheet">
+    <link href="../scss/estilos_registro.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <header></header>
+    <ul>
+        <li><a href="../HTML/registro.html">Registrarse</a></li>
+        <li><a href="../HTML/inicio.html">Iniciar sesión</a></li>
+        <li><a href="../HTML/pagina_cursos.html">Cursos</a></li>
+        <li><a href="../HTML/acercaDe.html">Contáctanos</a></li>
+        <li><a href="../HTML/MisionVision.html">Sobre Nosotros</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+    </ul>
+    <hr/>
+    <form class="form" id="inicio_form">
+
+        <h1 class="form_titulo">Inicia Sesion</h1>
+        <p class="form_parrafo">¿No tienes cuenta? <a href="../html/registro.html" class="form_link">Entra aqui</a></p>
+        
+        <div class="form_container">
+            <div class="form_group">
+                <input type=" text" id="email" class="form_input" placeholder=" ">
+                <label for="email" class="form_label">Email:</label>
+            </div>
+
+            <div class="form_group">
+                <input type="password" id="password" class="form_input" placeholder=" ">
+                <label for="password" class="form_label">Contraseña:</label>
+            </div>
+
+           <input type="submit" class="form_submit" value="Ingresar">
+
+        </div>
+    </form>
+    <script src="../js/inicio.js">  </script>
+</body>
+</html>
+

@@ -1,0 +1,142 @@
+body{
+    margin:0%;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+nav a{
+    /* background-color: #f71570; */
+    background-color: #1d3557;
+    border-radius: 10px 0 10px 0;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+section{
+    float: right;
+    width: 97%;
+    /* min-width: 96%; */
+    color: #1d3557;
+    border-radius: 5px;
+    border: 1px solid #b8b8ff;
+    border-top: 30px solid #b8b8ff;
+    box-shadow: 1px 0 4px rgb(0, 0, 0 ,.2);
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-top: 0%;
+}
+aside{
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: #4361ee;
+    box-shadow: inset 5px 0 5px -5px #4895ef;/*inset: sombra de lado interno, 5px eje x, 0px eje y, 5px blur(difuminar), -5px spread(propagar)*/
+}
+footer{
+    clear: both;/*para que el footer no tenga nada en la izquierda y derecha*/
+    padding: 1px;
+    background-color: #48cae4;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+h2{
+    color: #560bad;
+    margin-top: 0px;
+    text-align: center;
+}
+h3.subtitulo{
+    color: #560bad;
+    margin-top: 0px;
+}
+footer.contenedor{
+    display: flex; /*Poner elementos en la misma línea*/
+    background-color: #48cae4;
+    /* flex-direction: column; de arriba hacia abajo ocupando todo el ancho del div */
+    /* flex-direction: column-reverse; se muestran del último al primero */
+    /* flex-direction:row; se muestran de manera horizontal */
+    /* flex-direction:row-reverse; se cargan hacia la derecha y del último al primer */
+    /*flex-wrap: wrap; /*si no dan los elementos en la línea los pone en la siguiente*/
+    flex-flow: row wrap; /*unir el flex-direction y el flex-wrap*/
+    /* justify-content:flex-start; justificado a la izquierda */
+    /* justify-content: center; justificado hacia el centro */
+    /* justify-content: flex-end; justificado a la derecha */
+    /* justify-content: space-between; cada uno en los extremos */
+    justify-content: space-evenly; /*mismo espacio entre cada elemento */
+    height: 60%;
+    /*align-items: flex-start; /*alinear en el eje vertical, inicio del eje superior*/
+    align-items: center; /*alinear en el eje vertical y al centro*/
+    /*align-items: stretch;/*valor por defecto, ocupa todo el alto*/
+    /*align-items: baseline; /*se ajusta al tamaño de cada elemento */
+    align-content: center;/*espacio entre las líneas que tenemos en nuestro flexbox*/
+}
+footer.contenedor > a{
+    background-color:#48cae4;
+    color: black;
+    margin:20px;
+    /* padding:15px; */
+    font-size: 1.5em;
+}
+div{
+    margin: 50px;
+}
+div.miscursos{
+    margin: 10px;
+}
+div.dividido{
+    display: flex;
+    justify-content: center;
+}
+div.contenido{
+    margin: 25px;
+}
+div.desplazar{
+    flex-flow: row wrap;
+    margin:15px;
+}
+div.contenido-unidades{
+    margin: 0px;
+    width: 70%;
+}
+div.contenido-foto{
+    margin: 0px;
+    width: 15%;
+}
+div.contenido-redes{
+    margin: 0px;
+    width: 15%;
+    display: flex;
+}
+span.enfatizar{
+    color: #f77f00;
+    font-weight: bold;
+}
+img.contenido{
+    width: 230px;
+    height: 230px;
+}
+img.persona{
+    width: auto;
+    height: 120px;
+}
+ul.requisito{
+    list-style-type: square;
+}
+li.requisito{
+    float: initial;
+}
+h5.principal{
+    font-size: xx-large;
+    color:  #4361ee;
+    font-weight: bold;
+    text-align: center;
+}
+a.ejercicios{
+    text-decoration: none;
+}

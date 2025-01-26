@@ -1,0 +1,139 @@
+ul {
+  list-style-type: none;
+}
+
+.contenedor1 {
+/* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+  
+}
+
+input[type="checkbox"] {
+  /* -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2); */
+}
+.columna {
+  width: auto;
+  height: auto;
+  text-align: left;
+  text-justify: left;
+  padding: 15px;
+  font-size: larger;
+  margin: 0%;
+}
+.columna3 {
+  width: auto;
+  height: auto;
+  text-align: left;
+  text-justify: left;
+  padding: 15px;
+  font-size: larger;
+  border: 2px solid #787AC3 ;
+  margin: 5px;
+}
+.columna4 {
+  width: auto;
+  height: auto;
+  text-align: left;
+  text-justify: left;
+  padding: 15px;
+  font-size: larger;
+  border: 2px solid #6CD1E1;
+  margin: 5px;
+}
+.columna img {
+  width: 200px
+}
+.columna ul {
+  font-size: larger;
+}
+.columna input{
+  width: 90%;
+}
+.columna1 {
+  display: flex;
+}
+/* footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(20, 170, 184);
+} */
+
+/*establece el estilo para el encabezado de la página*/
+header {
+  background-color: #000000;
+  color: #f0e7e7;
+  padding: 40px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/*establece el estilo para una sección de cursos*/
+.curso {
+
+border: 2px solid #6CD1E1;
+max-width: 100%;
+margin-bottom: 30px;
+margin-top: 0px;
+text-align: left;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+background-color: #F8F8F8;
+}
+/*establece el estilo para las imágenes dentro de la sección de cursos*/
+.curso img {
+max-width: 100%;
+margin-bottom: 20px;
+}
+/*establece el estilo para los títulos de los cursos*/
+.curso h2 {
+  margin-top: 0px;
+font-size: 24px;
+background-color: #6CD1E1;
+color: black;
+}
+/*establece el estilo para los párrafos de texto dentro de los cursos*/
+.curso p {
+margin-bottom: 20px;
+font-size: 18px;
+line-height: 1.5;
+}
+hr {
+  border: 1px solid rgba(8, 129, 145, 0.977);
+
+}
+.red-vineta::before {
+content: "\10146"; /* código de entidad HTML para flecha hacia la derecha */
+color: red;
+margin-right: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #cacbd2;
+  
+}
+.columna3 input{
+  width: 60%;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 25px 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.columna4 input{
+  width: 60%;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 25px 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+label.respuestas{
+  width: 20px;
+}

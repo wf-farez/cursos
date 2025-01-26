@@ -1,0 +1,91 @@
+
+h1 {
+    text-align: center;
+    margin-top: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  /*Estilo de letra para la clase*/
+  .texto-arial {
+    font-family: Arial;
+  }
+  
+  
+  /* Estilos para centrar el formulario en la página */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b5b3b3f3;
+ 
+  }
+  
+  /* Estilos para los campos de entrada */
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  input[type=submit][value="Continuar con Google"] {
+    background-image: url("../imagenes/social.png"); 
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 25px 25px;
+    padding: 10px 20px;
+    border-radius: 1px;
+  }
+
+  input[type=submit][value="Continuar con Facebook"] {
+    background-image: url("../imagenes/facebook.png"); 
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 25px 25px;
+    padding: 10px 20px;
+    border-radius: 1px;
+  }
+  
+  /* Estilos para el botón de iniciar sesion */
+  input[type=submit][value="Iniciar sesion"] {
+    background-color: #5130d6;
+    width: 100%;
+    color: rgb(242, 238, 238);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el botón de registro cuando el cursor está encima */
+  input[type=submit]:hover {
+    background-color: #cacbd2;
+  }
+  input[type=submit][value="Iniciar sesion"]:hover {
+    background-color: #6f78b8;
+  }
+  
+  /*subrayado azul*/
+  a {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  /*linea de separacion*/
+  hr {
+    border: 0.02px solid rgba(22, 20, 20, 0.041);
+ 
+  }
+

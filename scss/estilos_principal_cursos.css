@@ -1,0 +1,146 @@
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 40px;
+}
+
+.imagen_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 50vh;
+  background-image: linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(7, 7, 7, 0.5)), url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.imagen_logo h1 {
+  color: rgb(252, 248, 248);
+}
+
+#imagen_logo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 50vh;
+  background-image: url("https://productosdigital.com/wp-content/uploads/2020/11/Mis-cursos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#imagen_logo2 h1 {
+  color: rgb(252, 248, 248);
+}
+
+.contenedor {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  margin: 50px;
+}
+.contenedor .carta {
+  padding: 5px 50px;
+  gap: 10px;
+}
+.contenedor .carta img {
+  max-width: 90%;
+  margin: 10px;
+}
+.contenedor .carta .button {
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  max-width: 90%;
+  padding: 10px 20px;
+  border-radius: 0.1px;
+  background-color: #787ac3;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedorm {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.carta1 {
+  width: 200px;
+}
+
+.carta1 img {
+  max-width: 90%;
+}
+
+.carta2 {
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.carta2 h3 {
+  margin: 50px;
+}
+
+#imagen_logo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(7, 7, 7, 0.5)), url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 17vh;
+}
+
+#imagen_logo3 h1 {
+  color: rgb(252, 248, 248);
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 500px) {
+  .contenedorm {
+    flex-direction: column;
+  }
+  .carta, .carta2, .carta3 {
+    width: 100%;
+  }
+}
+
+
+/*# sourceMappingURL=estilos_principal_cursos.css.map */

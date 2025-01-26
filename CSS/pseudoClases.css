@@ -1,0 +1,46 @@
+div.contenedor{
+    /* margin:auto; */
+    margin: 0px;
+    float: left;
+    border: 3px solid #b8b8ff;
+    width: 30%;
+    height: 20%;
+    padding: 15px;
+    color: #560bad;
+    text-align: center;
+}
+div.contenedor:hover{/*: pseudoclase con el estado de hover (hay diferentes estados)*/
+    background-color:#560bad;
+    color: #f1faee;
+}
+div.contenedor.oculto p{
+    display: none; /*para que se oculte este elemento*/
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color: #b8b8ff;
+    color: #023e8a;
+    padding: 15px;
+}
+div.contenedor.primero p:first-child{/*modificar el primer párrafo que encontremos*/
+    font-variant: small-caps;/*Todas mayúsculas sólo las del inicio un poco más grandes*/
+}
+.contenedor.ejercicio {
+    display: flex;
+    justify-content: space-between;
+}
+  
+input[type="checkbox"] {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+  
+.columna {
+    width: 30%;
+    text-align: left;
+    text-justify: left;
+    padding: 15px;
+    font-size: larger;
+}

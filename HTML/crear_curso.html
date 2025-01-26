@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- <link href="../CSS/estilos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="../scss/estilos_principal_cursos.css">
+  
+   <link rel="stylesheet" href="../scss/crear_cursos.css">-->
+    <link href="../CSS/estilo_header.css" rel="stylesheet">
+    <link href="../CSS/crear_curso.css" rel="stylesheet">
+    <link href="../CSS/estilos.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link href="../scss/estilos_paginas.css" rel="stylesheet">
+   
+</head>
+
+
+<body>
+    <header></header>
+    <ul>
+        <li><a href="../HTML/registro.html">Registrarse</a></li>
+        <li><a href="../HTML/inicio.html">Iniciar sesión</a></li>
+        <li><a href="../HTML/paginaUsuario.html">Mis cursos</a></li>
+        <li><a href="../HTML/acercaDe.html">Contactos</a></li>
+        <li><a href="../HTML/MisionVision.html">Sobre Nosotros</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+    </ul>
+    <hr/>
+
+
+    <div id="imagen_logoc">
+        <h1>Crea Tu Curso</h1>
+    </div>
+
+
+    <div class="container">
+
+        <div class="columna1">
+          <img src="https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2020/07/banner-recursos-aprendizaje-virtual.jpg" alt="Imagen">
+        </div>
+
+
+        <div class="columna2">
+            <form>
+                <label for="titulo">Título del curso:</label>
+                <input type="text" id="titulo" name="titulo" required>
+        
+                <label for="descripcion">Descripción del curso:</label>
+                <textarea id="descripcion" name="descripcion" rows="5" required></textarea>
+        
+                <label for="categoria">Categoría del curso:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="">Selecciona una categoría</option>
+                    <option value="programacion">Programación</option>
+                    <option value="calculodiferencial">Calculo Diferencial</option>
+                    <option value="calculointegral">Calculo Integral</option>
+                    <option value="basedatos">Base de datos</option>
+                    <option value="matematicasdiscretas"> Matematicas Discretas</option>
+                </select>
+        
+                <label for="duracion">Duración del curso:</label>
+                <input type="number" id="duracion" name="duracion" required>
+        
+                <label for="precio">Precio del curso:</label>
+                <input type="number" id="precio" name="precio" required>
+        
+                <label for="imagen">Imagen del curso:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+        
+
+                <hr>
+
+                <label for="aprender">Lo que aprenderas:</label>
+                <textarea id="aprender" name="aprender" rows="5" required></textarea>
+
+
+                <label for="requisto">Requisitos:</label>
+                <textarea id="requisto" name="requisto" rows="5" required></textarea>
+
+                <button type="button" id="saveBtn">Guardar</button>
+                <button type="button" class="btn btn-outline-primary" onclick="redireccionarAgregarContenidos()">Crear Contenidos</button>
+              </form>
+        </div>
+      </div>
+
+    <hr>
+    
+    <h5>
+        Da el siguiente <span class="enfatizar">paso</span> hacia tus
+        <span class="enfatizar">metas</span> personales <br />
+        y profesionales con <span class="enfatizar">EngineerLab</span>
+      </h5>
+      <p>
+        Únete ahora para recibir recomendaciones personalizadas<br />
+        del catálogo completo de EngineerLab
+      </p>
+    </div>
+
+    <footer class="contenedor">
+        <a href="HTML/MisionVision.html">Sobre nosotros</a>
+        <a href="HTML/Donacion.html">Donaciones</a>
+        <a href="HTML/acercaDe.html">Contáctanos</a>
+        <a href="HTML/registro.html">Regístrate</a>
+    </footer>
+
+
+    <script src="../js/crear_curso.js"></script>
+    <script src="../JS/agregar_contenidos.js"></script>
+</body>
+</html>

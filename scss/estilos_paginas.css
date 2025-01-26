@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+#imagen_logoc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 20vh;
+  background-image: linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(7, 7, 7, 0.5)), url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#imagen_logoc h1 {
+  color: rgb(252, 248, 248);
+  font-size: 5em;
+}
+
+.columna1 {
+  flex-basis: 30%;
+}
+.columna1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.columna2 {
+  flex-basis: 70%;
+}
+
+@media (max-width: 768px) {
+  .columna1 {
+    display: none;
+  }
+  .columna2 {
+    flex-basis: 100%;
+  }
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+}
+form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+form input, form select, form textarea, form button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+form .button {
+  background-color: #48cae4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+/*# sourceMappingURL=estilos_paginas.css.map */
